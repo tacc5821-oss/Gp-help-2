@@ -27,7 +27,7 @@ def register_handlers(app: Client):
 
    ✨ Hello {user}! ✨
 
-👋 I am Nomad 🤖 
+👋 I am Osamu Group Bot 🤖 
 
 Highlights:
 ─────────────────────────────
@@ -47,7 +47,6 @@ Highlights:
             ],
             [
                 InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://user?id={OWNER_ID}"),
-                InlineKeyboardButton("Repo", url="https://github.com/LearningBotsOfficial/Nomade"),
                 
             ],
             [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
